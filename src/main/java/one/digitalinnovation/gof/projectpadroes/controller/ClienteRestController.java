@@ -1,5 +1,6 @@
 package one.digitalinnovation.gof.projectpadroes.controller;
 
+import one.digitalinnovation.gof.projectpadroes.model.Cliente;
 import one.digitalinnovation.gof.projectpadroes.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

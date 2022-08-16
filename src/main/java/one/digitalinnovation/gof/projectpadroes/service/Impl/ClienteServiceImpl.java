@@ -7,11 +7,14 @@ import one.digitalinnovation.gof.projectpadroes.model.EnderecoRepository;
 import one.digitalinnovation.gof.projectpadroes.service.ClienteService;
 import one.digitalinnovation.gof.projectpadroes.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
 @Service
+@ComponentScan (basePackages = {"one.digitalinnovation.gof.projectpadroes"})
 public class ClienteServiceImpl implements ClienteService {
 
 
